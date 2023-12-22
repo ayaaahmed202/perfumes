@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;  border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: linear;
+    }
+    
+    header{
+        position: fixed;
+        top:0;  left: 0;  right: 0;
+        background: white;
+        padding: 20px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        
+    }
+    
+    header .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+        color:black;
+        font-weight: 600px;
+       
+    
+    }
+    header{
+        position: fixed;
+        top:0;  left: 0;  right: 0;
+        background: white;
+        padding: 20px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        
+    }
+    
+    header .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+        color:black;
+        font-weight: 600px;
+       
+    
+    }
+    header .navbar a{
+        font-size: 20px;
+        margin-left: 20px;
+        color: black;
+    
+    }
+    header .navbar a:hover{
+        background-color:burlywood;
+    }
+    
+    
+        
+    .home{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        background: url(pp1.jpg) ;
+        background-size: cover;
+    
+    }
+    .home .content{
+        width: 900px;
+    
+    }
+    .home .content h3{
+        font-size: 50px;
+        margin-bottom: 20px;
+        color:brown;
+    }
+    .home .content p {
+        font-size: 20px;
+        color: black;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 5rem;
+        background:peru;
+        color:black;
+        padding:10px 20px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .btn:hover{
+        background-color: bisque;
+    }
+     
+    section{
+        padding: 100px;
+    
+    }
+    h1.heading{
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+    .products .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .products .container .box{
+        width: 450px;
+        margin: 20px;
+        border: 15px solid white;
+        box-shadow: 0 5px 35px rgba(0, 0,0, 0.8);
+    }
+    .products .container .box .imagebox{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .products .container .box .imagebox img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .products .container .box .imagebox img:hover{
+        transform:scale(1.1);
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .row .slid{
+        width: 50%;
+        padding: 0px 20px;
+    }
+    .row .slid p{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .row .slid h2{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .row .slid .imagebox{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .row .slid .imagebox img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .row .slid h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color:black;
+        font-style:italic;
+    }
+    #btn{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background: orangered;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        display: none;
+    }
+    .contact{
+        background: url(ppp.jpg);
+        background-size: cover;
+    }
+    .contact_form{
+        padding: 75px 50px;
+        background: white;
+        box-shadow: 0 15px 35px rgb(0, 0, 0,0.2);
+        max-width: 600px;
+    }
+    .contact_form h3{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .contact_form .inputbox{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact_form .inputbox input,
+    .contact_form .inputbox textarea{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        resize: none;
+    }
+    .contact_form .inputbox input[type="submit"]{
+        background: burlywood;
+        color: aliceblue;
+        cursor: pointer;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 500;
+    letter-spacing: 2px;
+        border: none;
+        width: 100px;
+        padding: 10px 20px;
+        transition: 0.3s ease;
+    }
+    contact_form .inputbox input[type="submit"]:hover{
+        transform: scale(1.1);
+    }
+    h2.text{
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
